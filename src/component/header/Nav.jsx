@@ -35,7 +35,7 @@ const Nav = () => {
                             >Новости</Link>
                         </li>
                         <li>
-                            <Link to="/"
+                            <Link to="timetable"
                                 className="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
                             >Расписание</Link>
                         </li>

@@ -20,6 +20,7 @@ export default function App() {
                 <Route path="feature" element={<Feature/>}/>
                 <Route path="news" element={<News/>}/>
                 <Route path="gallery" element={<Gallery/>}/>
+                <Route path="timetable" element={<div>Расписание</div>}/>
             </Route>
         </Routes>
     );
@@ -29,9 +30,9 @@ function Layout() {
     return (
         <div>
             <Nav/>
-            <div className="container">
+
                 <Outlet/>
-            </div>
+
             <Footer/>
         </div>
     );
