@@ -20,28 +20,24 @@ const Nav = () => {
                             >Преподаватели</Link>
                         </li>
                         <li>
-                            <a
+                            <Link to="feature"
                                 className="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
-                            >Направления</a
-                            >
+                            >Направления</Link>
                         </li>
                         <li>
-                            <a
+                            <Link to="gallery"
                                 className="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
-                            >Partners</a
-                            >
+                            >Галерея</Link>
                         </li>
                         <li>
-                            <a
+                            <Link to="news"
                                 className="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
-                            >News</a
-                            >
+                            >Новости</Link>
                         </li>
                         <li>
-                            <a
+                            <Link to="/"
                                 className="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
-                            >Contact Us</a
-                            >
+                            >Расписание</Link>
                         </li>
                     </ul>
                 </div>
