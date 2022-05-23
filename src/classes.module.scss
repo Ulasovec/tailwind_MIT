@@ -1,0 +1,5 @@
+.main{
+   @apply flex justify-center container mx-auto
+}
+.item {@apply text-3xl font-bold underline }
+.btn{@apply mx-10 h-12 bg-blue-900 rounded-xl w-12 hover:animate-pulse}
