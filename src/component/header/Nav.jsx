@@ -22,7 +22,7 @@ const Nav = () => {
                         <li>
                             <a
                                 className="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
-                            >Company</a
+                            >Направления</a
                             >
                         </li>
                         <li>
