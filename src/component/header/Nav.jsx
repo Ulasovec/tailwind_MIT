@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
+
 const Nav = () => {
     return (
         <div>
@@ -7,9 +8,11 @@ const Nav = () => {
                 className="bg-white dark:bg-black dark:text-white flex flex-col md:flex-row items-center md:justify-between px-6 py-4 border-b border-b-gray-60 shadow-sm max-w-screen-2xl mx-auto"
             >
                 <div>
-                    <h2 className="text-3xl font-bold">
-                        <Link to="/" >MIT</Link>
-                    </h2>
+
+                        <Link to="/">
+                            <img src="/Img/Молчи и танцуй лого_студия_б.png" className='h-16 w-34%'/>
+                        </Link>
+
                 </div>
 
                 <div className="mt-5 md:mt-0">
