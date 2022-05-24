@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Gallery = () => {
+const GalleryTraning = () => {
     return (
         <div>
 
@@ -43,4 +43,4 @@ const Gallery = () => {
     );
 };
 
-export default Gallery;
+export default GalleryTraning;
