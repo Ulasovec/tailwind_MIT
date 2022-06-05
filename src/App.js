@@ -13,12 +13,15 @@ import Gallery from "./component/Galiry/Gallery";
 import Breadcrumb from "./component/Breadcrumb/Breadcrumb";
 import GalleryTraning from "./component/Galiry/GalleryTraning";
 import GalleryMP4 from "./component/Galiry/GalleryMP4";
+import Timetable from "./component/Timetable/Timetable";
+import {QueryClient, QueryClientProvider} from "react-query";
 
-
+const queryClient = new QueryClient(); // Create a react-query client
 
 export default function App() {
 
     return (
+        <QueryClientProvider client={queryClient}>
         <Routes>
             <Route path="/" element={<Layout />}>
                 <Route index element ={<Header/>}/>
@@ -30,9 +33,10 @@ export default function App() {
                     <Route path="rehearsal" element={<GalleryTraning/>}/>
                     <Route path="video" element={<GalleryMP4/>}/>
                 </Route>
-                <Route path="timetable" element={<div>Расписание</div>}/>
+                <Route path="timetable" element={<Timetable/>}/>
             </Route>
         </Routes>
+            </QueryClientProvider>
     );
 }
 
@@ -47,10 +51,11 @@ function Coll() {
 function Layout() {
     return (
         <div>
+
             <Nav/>
-
+            <div className='bg-gradient-to-r from-white to-gray-500'>
                 <Outlet/>
-
+                </div>
             <Footer/>
         </div>
     );

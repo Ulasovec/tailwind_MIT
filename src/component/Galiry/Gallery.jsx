@@ -6,34 +6,34 @@ const Gallery = () => {
         <div>
 
         <section className="overflow-hidden text-gray-700">
-            <div className="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
+            <div className="container px-5 py-2 mx-auto ">
                 <div className="flex flex-wrap -m-1 md:-m-2">
                     <div className="flex flex-wrap w-1/2">
                         <div className="w-1/2 p-1 md:p-2">
                             <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                 src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"/>
+                                 src="/Img/мит_1.jpg"/>
                         </div>
                         <div className="w-1/2 p-1 md:p-2 ">
                             <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                 src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"/>
+                                 src="/Img/мит_2.jpg"/>
                         </div>
                         <div className="w-full p-1 md:p-2">
                             <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                 src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"/>
+                                 src="/Img/мит_7.jpg"/>
                         </div>
                     </div>
                     <div className="flex flex-wrap w-1/2">
                         <div className="w-full p-1 md:p-2">
                             <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                 src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"/>
+                                 src="/Img/мит_4.jpg"/>
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
                             <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                 src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"/>
+                                 src="/Img/мит_5.jpg"/>
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
                             <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                 src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp"/>
+                                 src="/Img/мит_8.jpg"/>
                         </div>
                     </div>
                 </div>
