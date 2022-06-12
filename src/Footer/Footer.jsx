@@ -13,7 +13,7 @@ const Footer = () => {
                             <a aria-current="page" href="https://vk.com/teatr_izhevsk" className="hover:text-gray-700 dark:hover:text-white">
                                 Контакты
                             </a>
-                            <a aria-current="page" href="https://yandex.ru/maps/44/izhevsk/house/ulitsa_karla_marksa_300a/YUoYdAdjTUYFQFtsfXR0dntlZA==/?ll=53.258471%2C56.844263&z=13" className="hover:text-gray-700 dark:hover:text-white mt-2">
+                            <a  aria-current="page" href="https://yandex.ru/maps/44/izhevsk/house/ulitsa_karla_marksa_300a/YUoYdAdjTUYFQFtsfXR0dntlZA==/?ll=53.258471%2C56.844263&z=13" className="hover:text-gray-700 dark:hover:text-white mt-2 md:text-sm ">
                                 Адрес: г.Ижевск, К.Маркса 300А
                             </a>
                         </nav>
@@ -21,7 +21,7 @@ const Footer = () => {
                         </div>
                         <div
                             className="mt-4 md:mt-0 flex-1 flex items-center justify-center md:border-r border-gray-100">
-                            <a className="bg-amber-50 hover:text-primary-gray-20" href="https://github.com/Charlie85270/tail-kit">
+                            <a className="bg-amber-50 hover:text-primary-gray-20" href="https://vk.com/id5917322">
                                 <img src="/Img/Vk.com_icon-icons.com_55781.png" alt="icon"/>
                             </a>
                             <a className="ml-4 hover:text-primary-gray-20" href="https://vk.com/id5917322">

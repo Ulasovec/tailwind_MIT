@@ -2,6 +2,7 @@
 import {useFetch} from "../../hooks/fetch/useFetch";
 import {url} from "../../source/url";
 import {Toaster} from "react-hot-toast";
+import {Helmet} from "react-helmet";
 
 
 export const Team = () => {
@@ -19,6 +20,10 @@ export const Team = () => {
     return (
 
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Танцевальная студия - Молчи и танцуй - Уласовец</title>
+            </Helmet>
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
 
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -58,7 +63,7 @@ export const Team = () => {
                 <div key={item.id}>
                     <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
-                            className="object-cover w-full h-full md:h-70 xl:h-80"
+                            className="object-cover w-full h-full md:h-80 xl:h-80"
                             src={`http://localhost:1337${item.attributes?.cover?.data?.attributes?.url}`}
                             alt="Person"
                         />

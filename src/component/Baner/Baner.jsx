@@ -13,7 +13,7 @@ export const Header = () => {
                 <img
                     className="object-cover w-full h-66 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-full lg:h-full"
                     src="/Img/люба.jpg"
-                    alt=""
+                    alt="baner"
                 />
             </div>
             <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
