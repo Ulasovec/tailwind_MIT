@@ -3,9 +3,9 @@ import {Link} from 'react-router-dom'
 
 const Nav = () => {
     return (
-        <div>
+
             <nav
-                className="bg-white dark:bg-black dark:text-white flex flex-col md:flex-row items-center md:justify-between px-6 py-4 border-b border-b-gray-60 shadow-sm max-w-screen-2xl mx-auto"
+                className=" bg-black text-white flex flex-col md:flex-row items-center md:justify-between px-6 py-4 border-b border-b-gray-60 shadow-sm max-w-screen-3xl mx-auto"
             >
                 <div>
 
@@ -45,7 +45,7 @@ const Nav = () => {
                     </ul>
                 </div>
             </nav>
-        </div>
+
     );
 };
 

@@ -63,7 +63,7 @@ function Layout() {
             initial={{opacity: 0}}
             animate={{opacity: 1}}
             exit={{opacity: 0}}>
-            <div className='bg-gradient-to-r from-white to-gray-500'>
+            <div className='bg-gradient-to-r from-white to-gray-500 '>
                 <Outlet/>
             </div>
             </motion.div>

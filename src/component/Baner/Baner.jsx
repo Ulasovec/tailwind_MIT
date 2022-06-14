@@ -1,6 +1,6 @@
 export const Header = () => {
     return (
-        <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
+        <div className=" relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 ">
             <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
                 <svg
                     className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block"
@@ -11,7 +11,7 @@ export const Header = () => {
                     <path d="M50 0H100L50 100H0L50 0Z" />
                 </svg>
                 <img
-                    className="object-cover w-full h-66 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-full lg:h-full"
+                    className="object-cover w-full h-66 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-full xl:object-fill "
                     src="/Img/люба.jpg"
                     alt="baner"
                 />
