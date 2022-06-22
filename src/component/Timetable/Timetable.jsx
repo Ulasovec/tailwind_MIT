@@ -21,7 +21,7 @@ const Timetable = () => {
                 <meta charSet="utf-8" />
                 <title>Танцевальная студия - Молчи и танцуй - Расписание</title>
             </Helmet>
-            <h1 className="max-w-lg pt-16 font-sans text-3xl text-center font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">Расписание</h1>
+            <h1 className=" pt-16 font-sans text-3xl text-center font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">Расписание</h1>
         <div >
             <Toaster
                 position="top-center"
@@ -30,7 +30,7 @@ const Timetable = () => {
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="grid max-w-screen-lg gap-8 row-gap-5 md:row-gap-8 sm:mx-auto lg:grid-cols-2">
                 {data.map(item =>
-                <div key={item.id} className="shadow-md transition duration-300 transform bg-white  rounded shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
+                <div key={item.id} className="shadow-md transition duration-300 transform bg-white  rounded shadow-sm hover:-translate-y-1 hover:shadow text-center">
                     <div className="relative">
                         <img
                             className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96"

@@ -45,29 +45,29 @@ const Gallery = () => {
                         <div className="flex flex-wrap w-1/2">
                             <div className="w-1/2 p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                     src="/Img/мит_1.jpg"/>
+                                     src="/Img/наташа 1.jpg"/>
                             </div>
                             <div className="w-1/2 p-1 md:p-2 ">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                     src="/Img/мит_2.jpg"/>
+                                     src="/Img/наташа 2.jpg"/>
                             </div>
                             <div className="w-full p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                     src="/Img/мит_7.jpg"/>
+                                     src="/Img/наташа 3.jpg"/>
                             </div>
                         </div>
                         <div className="flex flex-wrap w-1/2">
                             <div className="w-full p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                     src="/Img/мит_4.jpg"/>
+                                     src="/Img/наташа 4.jpg"/>
                             </div>
                             <div className="w-1/2 p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                     src="/Img/мит_5.jpg"/>
+                                     src="/Img/наташа 5.jpg"/>
                             </div>
                             <div className="w-1/2 p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                     src="/Img/мит_8.jpg"/>
+                                     src="/Img/наташа 6.jpg"/>
                             </div>
                         </div>
                     </div>

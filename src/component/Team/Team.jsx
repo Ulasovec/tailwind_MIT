@@ -24,7 +24,7 @@ export const Team = () => {
                 <meta charSet="utf-8" />
                 <title>Танцевальная студия - Молчи и танцуй - Уласовец</title>
             </Helmet>
-            <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+            <div className="text-center max-w-xl mb-10 md:mx-auto lg:max-w-2xl md:mb-12">
 
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
