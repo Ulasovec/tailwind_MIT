@@ -1,7 +1,7 @@
 export const url = {
-    directions:"http://localhost:1337/api/directions",
-    teacher: "http://localhost:1337/api/teachers?populate=cover",
-    news: "http://localhost:1337/api/news?populate=cover",
-    timetable: "http://localhost:1337/api/timetables?populate=cover",
-    video: "http://localhost:1337/api/videos",
+    directions:"https://rintd.ru/mit/api/directions",
+    teacher: "https://rintd.ru/mit/api/teachers?populate=cover",
+    news: "https://rintd.ru/mit/api/news?populate=cover",
+    timetable: "https://rintd.ru/mit/api/timetables?populate=cover",
+    video: "https://rintd.ru/mit/api/videos",
 }

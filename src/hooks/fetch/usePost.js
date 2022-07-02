@@ -15,7 +15,7 @@ export default function usePost() {
         }
     });
     async function postData(form){
-        return axios.post(`http://localhost:1337/api/forms`,form);
+        return axios.post(`https://rintd.ru/mit/api/forms`,form);
     }
     return  mutationCreate;
 }

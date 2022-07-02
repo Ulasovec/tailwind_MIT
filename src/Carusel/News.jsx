@@ -32,7 +32,7 @@ import {Helmet} from "react-helmet";
                     <div className="relative">
                         <img
                             className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96"
-                            src={`http://localhost:1337${item.attributes?.cover?.data?.attributes?.url}`}
+                            src={`https://rintd.ru/mit${item.attributes?.cover?.data?.attributes?.url}`}
                             alt="news"
                         />
                         <div className="absolute inset-0 bg-gray-800 bg-opacity-25" />

@@ -137,6 +137,7 @@ export const Feature = () => {
                 </span>
                                 {item.attributes.discription_3}
                             </li>
+                            {/*<li><h6 className="mb-2 font-semibold leading-5">Стоимость: 3000</h6></li>*/}
                         </ul>
 
                     </div>
