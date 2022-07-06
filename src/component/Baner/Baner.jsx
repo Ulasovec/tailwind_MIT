@@ -11,7 +11,7 @@ export const Header = () => {
                     <path d="M50 0H100L50 100H0L50 0Z" />
                 </svg>
                 <img
-                    className="object-cover w-full h-66 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-full xl:object-fill "
+                    className="object-cover w-full h-66 rounded shadow-lg lg:rounded-none lg:shadow-none   md:h-full xl:object-fill lg:block hidden"
                     src="/Img/люба.jpg"
                     alt="baner"
                 />
@@ -26,7 +26,8 @@ export const Header = () => {
                     </h2>
                     <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
                         Молчи и танцуй – это творческий коллектив единомышленников и профессиональных танцоров, существующий с 2010 года, поставивший более 6 спектаклей и имеющий за плечами гастроли в 8 регионах России, а также за рубежом.
-                        Спектакли Молчи и танцуй, такие как "Волшебник изумрудного города", "Маленький принц", "Алые паруса" и т.д., завоевали любовь взрослых и юных зрителей благодаря оригинальному сочетанию танцев в стилях Break dance, Hip Hop и House, глубоким смыслам, динамичности сюжетов, пластической выразительности и мастерству исполнителей.
+                        В нашей студии препадают актёры с педагогическим образованием, настоящие професионалы своего дела.
+                        Обучающиеся дети уже танцуют в стилях Break dance, Hip Hop и House dance, а так же учасвствуют в танцевальных номерах и спектаклях с глубокими смыслами.
                     </p>
 
                 </div>

@@ -10,11 +10,14 @@ const Footer = () => {
                     <div className="mt-4 md:mt-0 flex flex-col md:flex-row">
                         <nav
                             className="flex-1 flex flex-col items-center justify-center md:items-end md:border-r border-gray-100 md:pr-5">
-                            <a aria-current="page" href="https://vk.com/teatr_izhevsk" className="hover:text-gray-700 dark:hover:text-white">
-                                Контакты
+                            <a aria-current="page" href="https://vk.com/nytela" className="hover:text-gray-700 dark:hover:text-white">
+                                Администратор
                             </a>
                             <a  aria-current="page" href="https://yandex.ru/maps/44/izhevsk/house/ulitsa_karla_marksa_300a/YUoYdAdjTUYFQFtsfXR0dntlZA==/?ll=53.258471%2C56.844263&z=13" className="hover:text-gray-700 dark:hover:text-white mt-2 md:text-sm ">
                                 Адрес: г.Ижевск, К.Маркса 300А
+                            </a>
+                            <a  aria-current="page" href="https://yandex.ru/maps/44/izhevsk/house/ulitsa_imeni_korotkova_17a/YUoYdA9jS0UEQFtsfXR3eXpjYQ==/?ll=53.283202%2C56.868605&z=16" className="hover:text-gray-700 dark:hover:text-white mt-2 md:text-sm ">
+                                г. Ижевск, Короткова, 17а
                             </a>
                         </nav>
                         <div className="md:hidden mt-4 mx-auto w-11 h-px rounded-full">
@@ -24,7 +27,7 @@ const Footer = () => {
                             <a className="bg-amber-50 hover:text-primary-gray-20" href="https://vk.com/id5917322">
                                 <img src="/Img/Vk.com_icon-icons.com_55781.png" alt="icon"/>
                             </a>
-                            <a className="ml-4 hover:text-primary-gray-20" href="https://vk.com/id5917322">
+                            <a className="ml-4 hover:text-primary-gray-20" href="https://vk.com/teatr_izhevsk">
                     <span className="sr-only">
                         Settings
                     </span>
