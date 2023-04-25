@@ -7,7 +7,7 @@ const Modal = () => {
     const create = usePost();
     const [form, setForm] = useReducer((form, action) => ({...form, ...action}),
         {name: '', tell: '+7', dance: ''})
-console.log(form)
+
     function handleForm(e) {
         e.preventDefault();
         create.mutate({data:form});

@@ -17,14 +17,24 @@ import GalleryMP4 from "./component/Galiry/GalleryMP4";
 import Timetable from "./component/Timetable/Timetable";
 import {QueryClient, QueryClientProvider} from "react-query";
 import {AnimatePresence,motion} from "framer-motion";
+import Form from "./component/Registration/Form";
+import FormUser from "./component/Registration/FormUser";
+import {UserContext} from "./context/userContext";
+import  {useReducer} from 'react';
+import UserPage from "./Page/UserPage";
+import AdminPage from "./Page/AdminPage";
 
 const queryClient = new QueryClient(); // Create a react-query client
 
 export default function App() {
     const location = useLocation();
-
+    
+    const [isAuth,setIsAuth] = useReducer((isAuth, action) => ({...isAuth, ...action}),
+    {jwt: '', userName: ''})
+console.log(isAuth);
     return (
         <QueryClientProvider client={queryClient}>
+            <UserContext.Provider value={{isAuth, setIsAuth}}>
             <AnimatePresence>
                 <Routes location={location} key={location.pathname}>
                     <Route path="/" element={<Layout/>}>
@@ -32,15 +42,24 @@ export default function App() {
                         <Route path="team" element={<Team/>}/>
                         <Route path="feature" element={<Feature/>}/>
                         <Route path="news" element={<News/>}/>
-                        <Route path="gallery" element={<Coll/>}>
+                        <Route path="page_users" element={<UserPage/>}/>
+                        <Route path="page_admin" element={<AdminPage/>}/>
+                        <Route path="registration_users" element={<FormUser/>}/> 
+                        <Route path="registration" element={<Form/>}/>
+                        
+                        <Route path="gallery" element={<Coll/>}>                    
                             <Route index element={<Gallery/>}/>
                             <Route path="rehearsal" element={<GalleryTraning/>}/>
                             <Route path="video" element={<GalleryMP4/>}/>
                         </Route>
+                         
                         <Route path="timetable" element={<Timetable/>}/>
+                        
                     </Route>
                 </Routes>
             </AnimatePresence>
+
+            </UserContext.Provider>
         </QueryClientProvider>
     );
 }

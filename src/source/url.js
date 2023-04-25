@@ -4,4 +4,7 @@ export const url = {
     news: "https://rintd.ru/mit/api/news?populate=cover",
     timetable: "https://rintd.ru/mit/api/timetables?populate=cover",
     video: "https://rintd.ru/mit/api/videos",
+    baner:"https://rintd.ru/mit/api/baners",
+    login:"https://rintd.ru/mit/api/auth/local",
+    registration:"https://rintd.ru/mit/api/auth/local/register"
 }

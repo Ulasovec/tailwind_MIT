@@ -8,7 +8,7 @@ import {Helmet} from "react-helmet";
 
     const News = () => {
     const query = useFetch(url.news)
-    console.log(query)
+
         if (query.isLoading) return <span>Loading...</span>;
         if (query.isError) return  <Toaster
             position="top-center"
@@ -16,7 +16,7 @@ import {Helmet} from "react-helmet";
         />;
     // Деструктуризация
     const data = query.data.data;
-    console.log(data)
+
     return (
         <div>  <Helmet>
             <meta charSet="utf-8" />

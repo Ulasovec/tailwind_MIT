@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 
 export default function usePost() {
     const queryClient = useQueryClient();
- console.log(queryClient)
+
     const mutationCreate = useMutation(postData,{
         onSuccess: () => {
             toast.success('Мы вам перезвоним');

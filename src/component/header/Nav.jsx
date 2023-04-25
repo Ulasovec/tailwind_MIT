@@ -1,7 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
+import { UserContext } from '../../context/userContext';
+import { useContext } from 'react';
 
 const Nav = () => {
+    const {isAuth} = useContext(UserContext);
+
     return (
 
             <nav
@@ -16,7 +20,7 @@ const Nav = () => {
                 </div>
 
                 <div className="mt-5 md:mt-0">
-                    <ul className="flex flex-col md:flex-row md:space-x-5 w-full items-center">
+                    <ul className="flex flex-col text-sm md:flex-row md:space-x-5 w-full items-center">
                         <li>
                             <Link to="team"
                                   className="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
@@ -42,6 +46,26 @@ const Nav = () => {
                                 className="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
                             >Расписание</Link>
                         </li>
+                        {(isAuth.userName == "admin")
+                        ?
+                         <li>
+                         
+                         <Link to="page_admin"
+                             className="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
+                         >Администратор / {isAuth.userName}</Link>
+                        </li>
+                        :(isAuth.userName) 
+                        ?  
+                        <li><Link to="page_users"
+                         className="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
+                     >Пользователь / {isAuth.userName}</Link>
+                        </li>
+                        :
+                        <li>                         
+                            <Link to="registration"
+                                className="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
+                            >Личный кабинет</Link>
+                        </li>}
                     </ul>
                 </div>
             </nav>

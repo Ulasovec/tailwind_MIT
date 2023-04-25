@@ -7,7 +7,7 @@ const Breadcrumb = () => {
 
             <nav className="rounded-md w-full ">
                 <ol className="list-reset flex justify-center ">
-                    <li><Link to =" " className="font-semibold  text-black hover:text-blue-900">Концерты</Link></li>
+                    <li><Link to =" " className="font-semibold  text-black hover:text-blue-900">Выступления</Link></li>
                     <li><span className="text-gray-500 mx-2">/</span></li>
                     <li><Link to ="rehearsal" className="font-semibold  text-black hover:text-blue-900">Репетиции</Link></li>
                     <li><span className="text-gray-500 mx-2">/</span></li>

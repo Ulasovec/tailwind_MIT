@@ -1,4 +1,17 @@
+import Modal from "../../Modal/Modal";
+import {Toaster} from "react-hot-toast";
+import {url} from "../../source/url";
+import {useFetch} from "../../hooks/fetch/useFetch";
+
 export const Header = () => {
+    const query = useFetch(url.baner)
+    if (query.isLoading) return <span>Loading...</span>;
+    if (query.isError) return  <Toaster
+        position="top-center"
+        reverseOrder={false}
+    />;
+    const data = query.data.data;
+    const body = data[0].attributes.body;
     return (
         <div className=" relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 ">
             <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
@@ -25,9 +38,7 @@ export const Header = () => {
                         "Молчи и танцуй"
                     </h2>
                     <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-                        Молчи и танцуй – это творческий коллектив единомышленников и профессиональных танцоров, существующий с 2010 года, поставивший более 6 спектаклей и имеющий за плечами гастроли в 8 регионах России, а также за рубежом.
-                        В нашей студии препадают актёры с педагогическим образованием, настоящие професионалы своего дела.
-                        Обучающиеся дети уже танцуют в стилях Break dance, Hip Hop и House dance, а так же учасвствуют в танцевальных номерах и спектаклях с глубокими смыслами.
+                        {body}
                     </p>
 
                 </div>

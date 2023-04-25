@@ -6,7 +6,7 @@ import {Helmet} from "react-helmet";
 
 const Timetable = () => {
     const query = useFetch(url.timetable)
-    console.log(query)
+
     if (query.isLoading) return <span>Loading...</span>;
     if (query.isError) return  <Toaster
         position="top-center"
